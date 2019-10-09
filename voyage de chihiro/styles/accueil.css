@@ -1,8 +1,10 @@
 body{
   margin: 0;
 }
+
 .hotel{
   z-index: 3;
+  position: absolute;
   width: 100%;
 }
 
