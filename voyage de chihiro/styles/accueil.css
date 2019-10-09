@@ -28,7 +28,3 @@ body{
   transform-origin: 0;
   transform: translateZ(3px);
 }
-
-.foreground img{
-  width: 100%;
-}
