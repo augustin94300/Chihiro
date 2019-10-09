@@ -5,6 +5,7 @@ body{
 .hotel{
   z-index: 0;
   position: absolute;
+  width: 100%;
 }
 
 .center{
