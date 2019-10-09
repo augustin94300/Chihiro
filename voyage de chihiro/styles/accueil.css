@@ -3,9 +3,8 @@ body{
 }
 
 .hotel{
-  z-index: 3;
+  z-index: 0;
   position: absolute;
-  width: 100%;
 }
 
 .center{
@@ -14,20 +13,29 @@ body{
 }
 
 .horloge{
+  z-index: 0;
+  position: absolute;
+  top: 600%;
   left: 23.55%;
 }
 
 .stand{
-  top: 107em;
+  z-index: 0;
+  position: absolute;
+  top: 600%;
   left: 23.55%;
 }
 
 .bain{
-  top: 488%;
+  z-index: 0;
+  position: absolute;
+  top: 600%;
   left: 23.55%;
 }
 .train{
-  top: 591%;
+  z-index: 0;
+  position: absolute;
+  top: 600%;
   left: 23.55%;
 }
 
