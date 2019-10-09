@@ -24,7 +24,7 @@ body{
 
 .bain{
   z-index: 2;
-  position: absolute;
+  position: relative;
   top: 488%;
   left: 23.55%;
   width: 51.5%;
@@ -32,7 +32,7 @@ body{
 }
 .train{
   z-index: 2;
-  position: absolute;
+  position: relative;
   top: 591%;
   left: 23.55%;
   width: 51.5%;
