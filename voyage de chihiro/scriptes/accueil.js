@@ -1,6 +1,13 @@
 let sections = document.querySelector('.sections')
 let video = document.querySelector('.video')
-sections.addEventListene('scroll', function (){
-  if (window.pageYoffset > 0){
-    video.play();}
-})
+
+let isPaused = false;
+let observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if(entry.intersectionRatio!=1  && !video.paused){
+      video.pause(); isPaused = true;
+    }
+    else if(isPaused) {video.play(); isPaused=false}
+  });
+}, {threshold: 1});
+observer.observe(video);
