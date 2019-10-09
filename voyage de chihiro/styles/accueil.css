@@ -37,4 +37,5 @@ body{
 .hotelFront{
   margin-top: 200px;
   z-index:2;
+  width: 50%;
 }
