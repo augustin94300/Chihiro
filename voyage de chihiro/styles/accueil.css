@@ -3,6 +3,9 @@ body{
   width: 100%;
 }
 
+.container{
+  position: relative;
+}
 
 .hotel{
   z-index: 0;
@@ -10,10 +13,6 @@ body{
   width: 100%;
 }
 
-.center{
-  z-index: 0;
-  position: relative;
-}
 
 .horloge{
   z-index: 0;
