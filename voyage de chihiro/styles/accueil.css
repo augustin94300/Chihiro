@@ -14,28 +14,25 @@ body{
 }
 
 .horloge{
-  margin: 0 auto;
-  top: 98em;
-  width: 75%;
-
+  left: 23.55%;
 }
 
 .stand{
-  margin: 0 auto;
   top: 107em;
+  left: 23.55%;
 }
 
 .bain{
   top: 488%;
   left: 23.55%;
-  width: 51.5%;
-  height: 65%;
 }
 .train{
   top: 591%;
   left: 23.55%;
-  width: 51.5%;
-  height: 63%;
+}
+
+.vignette{
+  width: 75%;
 }
 
 .video{
@@ -43,13 +40,6 @@ body{
   position: absolute;
   top: 705.5%;
   left: 23.15%;
-  width: 52%;
-  height: 55%;
-}
-
-
-.vignette{
-  width: 75%;
 }
 
 .hotelFront{
