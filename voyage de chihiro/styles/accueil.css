@@ -36,12 +36,12 @@ body{
 
 .hotelFront{
   position: absolute;
-  margin: 250px 50px;
+  margin: 300px 50px;
   z-index:2;
   width: 75%;
 }
 
 .hotelFront img{
   width: 50%;
-  margin: 150px 200px;
+  margin: 75px 200px;
 }
