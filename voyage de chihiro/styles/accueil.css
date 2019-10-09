@@ -49,8 +49,8 @@ body{
 }
 .hotelFront{
   position: absolute;
-  top: 442.5%;
+  top: 120;
   left: 34.15%;
-  width: 31.5%;
+  width: 50%;
   z-index: 4;
 }
