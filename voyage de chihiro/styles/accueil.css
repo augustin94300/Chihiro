@@ -28,3 +28,11 @@ body{
   transform-origin: 0;
   transform: translateZ(3px);
 }
+
+.background_image{
+  width: 50%;
+}
+
+.foreground img{
+  width: 50%;
+}
