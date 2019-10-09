@@ -11,3 +11,5 @@ let observer = new IntersectionObserver((entries, observer) => {
   });
 }, {threshold: 1});
 observer.observe(video);
+
+let rellax = new Rellax('.rellax');
