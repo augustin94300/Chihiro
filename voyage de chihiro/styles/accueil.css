@@ -16,27 +16,23 @@ body{
 .horloge{
   z-index: 0;
   position: absolute;
-  top: 600%;
   left: 23.55%;
 }
 
 .stand{
   z-index: 0;
   position: absolute;
-  top: 600%;
   left: 23.55%;
 }
 
 .bain{
   z-index: 0;
   position: absolute;
-  top: 600%;
   left: 23.55%;
 }
 .train{
   z-index: 0;
   position: absolute;
-  top: 600%;
   left: 23.55%;
 }
 
