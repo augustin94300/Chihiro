@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+}
+.hotel{
+  z-index: 1;
+  width: 100%;
+}
+
+.horloge{
+  z-index: 2;
+  position: absolute;
+  top: 303.5%;
+  left: 23.60%;
+  width: 51%;
+  height: 59%;
+
+}
+.stand{
+  z-index: 2;
+  position: absolute;
+  top: 390%;
+  left: 23.55%;
+  width: 51.5%;
+  height: 59%;
+}
+.bain{
+  z-index: 2;
+  position: absolute;
+  top: 482%;
+  left: 23.55%;
+  width: 51.5%;
+  height: 65%;
+}
+.train{
+  z-index: 2;
+  position: absolute;
+  top: 582%;
+  left: 23.55%;
+  width: 51.5%;
+  height: 63%;
+}
+.video{
+  z-index: 4;
+  position: absolute;
+  top: 705.5%;
+  left: 23.15%;
+  width: 52%;
+}
+.hotel_haut{
+  position: absolute;
+  top: 442.5%;
+  left: 34.15%;
+  width: 31.5%;
+  z-index: 3;
+}
+.hotel_bas{
+  position: absolute;
+  top: 480%;
+  left: 22.15%;
+  width: 55.5%;
+  z-index: 3;
+}
+.hotel_moyen{
+  position: absolute;
+  top: 552%;
+left: 14%;
+  width: 71.5%;
+  height: 105%;
+  z-index: 4;
+}
