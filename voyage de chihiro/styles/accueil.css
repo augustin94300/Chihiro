@@ -4,13 +4,13 @@ body{
 .hotel{
   z-index: 3;
   position: absolute;
-
   width: 100%;
 }
 
 .horloge{
   z-index: 0;
-  top: 1303.5%;
+  position: absolute;
+  top: 303.5%;
   left: 23.60%;
   width: 51%;
   height: 59%;
@@ -18,6 +18,7 @@ body{
 }
 .stand{
   z-index: 0;
+  position: absolute;
   top: 390%;
   left: 23.55%;
   width: 51.5%;
@@ -25,6 +26,7 @@ body{
 }
 .bain{
   z-index: 0;
+  position: absolute;
   top: 482%;
   left: 23.55%;
   width: 51.5%;
@@ -32,6 +34,7 @@ body{
 }
 .train{
   z-index: 0;
+  position: absolute;
   top: 582%;
   left: 23.55%;
   width: 51.5%;
@@ -39,6 +42,7 @@ body{
 }
 .video{
   z-index: 4;
+  position: absolute;
   top: 705.5%;
   left: 23.15%;
   width: 52%;
