@@ -2,7 +2,10 @@ body{
   margin: 0;
 }
 .hotel{
-  z-index: 1;
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
@@ -41,8 +44,8 @@ body{
 }
 .video{
   z-index: 4;
-  position: absolute;
-  top: 705.5%;
+  position: relative;
+  top: 154em;
   left: 23.15%;
   width: 52%;
   height: 55%;
@@ -61,7 +64,7 @@ body{
   width: 55.5%;
   z-index: 3;
 }
-.hotel_moyen{
+.hotelFront{
   position: absolute;
   top: 562%;
 left: 14%;
