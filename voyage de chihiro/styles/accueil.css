@@ -1,18 +1,19 @@
 body{
   margin: 0;
-  display: flex;
 }
 .hotel{
   z-index: 3;
   position: absolute;
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
 .horloge{
   z-index: 0;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
   top: 98em;
   width: 75%;
 
@@ -20,23 +21,25 @@ body{
 .stand{
   z-index: 0;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+
   top: 107em;
   width: 75%;
 }
 .bain{
   z-index: 0;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
   top: 120em;
   width: 75%;
 }
 .train{
   z-index: 0;
-  position: relative;margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
   top: 136em;
   width: 75%;
 }
