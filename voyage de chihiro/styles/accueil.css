@@ -3,6 +3,7 @@ body{
   width: 100%;
 }
 
+
 .hotel{
   z-index: 0;
   position: absolute;
@@ -11,7 +12,7 @@ body{
 
 .center{
   z-index: 0;
-  position: absolute;
+  position: relative;
 }
 
 .horloge{
