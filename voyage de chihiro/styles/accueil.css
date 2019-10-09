@@ -36,7 +36,7 @@ body{
 
 .hotelFront{
   position: absolute;
-  margin: 220px 50px;
+  margin: 250px 50px;
   z-index:2;
   width: 75%;
 }
