@@ -4,8 +4,7 @@ body{
 .hotel{
   z-index: 3;
   position: absolute;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
   width: 100%;
 }
 
