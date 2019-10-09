@@ -10,7 +10,7 @@ body{
   height: 100%;
   width: 100%;
   perspective: 8px;
-  perspective-origin: 50%;
+  perspective-origin: 10%;
 }
 
 .background {
