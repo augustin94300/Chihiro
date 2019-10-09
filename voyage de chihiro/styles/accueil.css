@@ -50,5 +50,8 @@ body{
   position: absolute;
   margin: 100px 50px;
   z-index:2;
+}
+
+.tunnel img{
   width: 35%;
 }
