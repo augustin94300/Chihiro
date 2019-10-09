@@ -35,3 +35,8 @@ body{
 .foreground img{
   width: 100%;
 }
+
+.hotelFront{
+  position: absolute;
+  width: 50%;
+}
