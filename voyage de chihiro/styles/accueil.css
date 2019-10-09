@@ -9,7 +9,7 @@ body{
 
 .horloge{
   z-index: 0;
-  position: absolute;
+  position: relative;
   top: 303.5%;
   left: 23.60%;
   width: 51%;
@@ -18,7 +18,7 @@ body{
 }
 .stand{
   z-index: 0;
-  position: absolute;
+  position: relative;
   top: 390%;
   left: 23.55%;
   width: 51.5%;
@@ -26,7 +26,7 @@ body{
 }
 .bain{
   z-index: 0;
-  position: absolute;
+  position: relative;
   top: 482%;
   left: 23.55%;
   width: 51.5%;
@@ -34,7 +34,7 @@ body{
 }
 .train{
   z-index: 0;
-  position: absolute;
+  position: relative;
   top: 582%;
   left: 23.55%;
   width: 51.5%;
@@ -42,7 +42,7 @@ body{
 }
 .video{
   z-index: 4;
-  position: absolute;
+  position: relative;
   top: 705.5%;
   left: 23.15%;
   width: 52%;
