@@ -35,7 +35,7 @@ body{
 .train{
   z-index: 0;
   position: relative;
-  top: 30em;
+  top: 300em;
   left: 23.55%;
   width: 51.5%;
   height: 63%;
@@ -43,7 +43,7 @@ body{
 .video{
   z-index: 4;
   position: relative;
-  top: 300em;
+  top: 340em;
   left: 23.15%;
   width: 52%;
 }
