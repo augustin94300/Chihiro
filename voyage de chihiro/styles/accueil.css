@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  display: flex;
 }
 .hotel{
   z-index: 3;
@@ -49,8 +50,8 @@ body{
 }
 .hotelFront{
   position: absolute;
+  justify-content: center;
   top: 120;
-  left: 34.15%;
   width: 50%;
   z-index: 4;
 }
