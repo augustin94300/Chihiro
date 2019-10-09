@@ -23,7 +23,7 @@ body{
 }
 
 .bain{
-  z-index: 2;
+  z-index: 0;
   position: absolute;
   top: 488%;
   left: 23.55%;
@@ -31,7 +31,7 @@ body{
   height: 65%;
 }
 .train{
-  z-index: 2;
+  z-index: 0;
   position: absolute;
   top: 591%;
   left: 23.55%;
