@@ -8,7 +8,7 @@ body{
   width: 100%;
 }
 
-.horloge{
+.horloge img{
   z-index: 0;
   position: relative;
   margin: 0 auto;
@@ -16,13 +16,14 @@ body{
   width: 75%;
 
 }
+
 .stand{
   z-index: 0;
   position: relative;
   margin: 0 auto;
   top: 107em;
-  width: 75%;
 }
+
 .bain{
   z-index: 0;
   position: relative;
@@ -38,6 +39,7 @@ body{
   top: 136em;
   width: 75%;
 }
+
 .video{
   z-index: 4;
   position: relative;
@@ -45,6 +47,11 @@ body{
   left: 23.15%;
   width: 75%;
 }
+
+.vignette{
+  width: 75%;
+}
+
 .hotelFront{
   position: absolute;
   margin: 0 auto;
