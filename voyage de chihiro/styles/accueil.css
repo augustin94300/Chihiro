@@ -8,9 +8,12 @@ body{
   width: 100%;
 }
 
-.horloge{
+.center{
   z-index: 0;
   position: absolute;
+}
+
+.horloge{
   margin: 0 auto;
   top: 98em;
   width: 75%;
@@ -18,23 +21,17 @@ body{
 }
 
 .stand{
-  z-index: 0;
-  position: absolute;
   margin: 0 auto;
   top: 107em;
 }
 
 .bain{
-  z-index: 0;
-  position: absolute;
   top: 488%;
   left: 23.55%;
   width: 51.5%;
   height: 65%;
 }
 .train{
-  z-index: 0;
-  position: absolute;
   top: 591%;
   left: 23.55%;
   width: 51.5%;
