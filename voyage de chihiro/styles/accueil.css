@@ -27,7 +27,7 @@ body{
 .bain{
   z-index: 0;
   position: relative;
-  top: 127em;
+  top: 120em;
   left: 23.55%;
   width: 51.5%;
   height: 65%;
@@ -43,7 +43,7 @@ body{
 .video{
   z-index: 4;
   position: relative;
-  top: 340em;
+  top: 0em;
   left: 23.15%;
   width: 52%;
 }
