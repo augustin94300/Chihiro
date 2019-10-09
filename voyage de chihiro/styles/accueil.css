@@ -47,20 +47,7 @@ body{
   width: 52%;
   height: 55%;
 }
-.hotel_haut{
-  position: absolute;
-  top: 442.5%;
-  left: 34.15%;
-  width: 31.5%;
-  z-index: 3;
-}
-.hotel_bas{
-  position: absolute;
-  top: 480%;
-  left: 22.15%;
-  width: 55.5%;
-  z-index: 3;
-}
+
 
 .vignette{
   width: 75%;
@@ -69,7 +56,7 @@ body{
 .hotelFront{
   position: absolute;
   top: 562%;
-left: 14%;
+  left: 14%;
   width: 71.5%;
   height: 105%;
   z-index: 4;
