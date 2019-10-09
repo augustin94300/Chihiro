@@ -51,7 +51,7 @@ body{
 .hotelFront{
   position: absolute;
   justify-content: center;
-  top: 120;
+  top: 120em;
   width: 50%;
   z-index: 4;
 }
