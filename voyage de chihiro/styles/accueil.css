@@ -19,7 +19,7 @@ body{
 .stand{
   z-index: 0;
   position: relative;
-  top: 130em;
+  top: 107em;
   left: 23.55%;
   width: 51.5%;
   height: 59%;
@@ -27,7 +27,7 @@ body{
 .bain{
   z-index: 0;
   position: relative;
-  top: 260em;
+  top: 127em;
   left: 23.55%;
   width: 51.5%;
   height: 65%;
@@ -35,7 +35,7 @@ body{
 .train{
   z-index: 0;
   position: relative;
-  top: 300em;
+  top: 136em;
   left: 23.55%;
   width: 51.5%;
   height: 63%;
