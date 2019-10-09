@@ -24,6 +24,8 @@ body{
 .foreground {
   margin-top: auto;
   margin-bottom: 50px;
+  transform-origin: 0;
+  transform: translateZ(3px) scale(0.625);
 }
 
 .background_image{
