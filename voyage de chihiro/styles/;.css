@@ -28,35 +28,20 @@ body{
 
 .background img{
   width: 75%;
+  margin-left: 50%
 }
 
 .front{
   position: absolute;
   z-index: 2;
-  margin-left: 100px;
 }
 
 .back{
   position: absolute;
   z-index: 3;
-  margin-left: 100px;
 }
 
-.bureau{
-  top: 1150px;
-}
 
-.chambre{
-  top: 1450px;
-}
-
-.bain{
-  top: 1700px;
-}
-
-.cave{
-
-}
 
 .foreground img{
   width: 100%;
