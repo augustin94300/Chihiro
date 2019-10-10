@@ -134,7 +134,7 @@ header h1 {
 .castSection {
     text-align: center;
     margin: -8em 0 6em 0;
-    padding: 0 5%; 
+    padding: 0 5%;
 }
 
 .castSection h1 {
@@ -264,7 +264,11 @@ footer p, .footerPages {
     margin-left: 30px;
 }
 
- 
+footer p{
+  width: 630px;
+  font-weight: 100;
+}
+
 /*----------Animations---------*/
 
 
@@ -275,7 +279,7 @@ footer p, .footerPages {
 }
 .sous_titre{
     animation-name: sous_titre;
-    animation-duration: 1.5s;  
+    animation-duration: 1.5s;
 }
 @keyframes animateMe{
     from{
@@ -288,7 +292,7 @@ footer p, .footerPages {
 @keyframes btnfilled{
     0%{
         opacity:0;
-        
+
     }
     50%{
         opacity:0;
@@ -315,14 +319,3 @@ footer p, .footerPages {
         opacity: 1;
     }
 }
-
- 
-
-
-
-
-
-
-
-
-
