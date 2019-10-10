@@ -3,13 +3,11 @@ body{
   width: 100%;
 }
 
-.parallax-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.parallaxContainer{
   height: 100%;
   width: 100%;
   z-index: 0;
+  padding: 0;
 }
 
 .background {
@@ -25,6 +23,11 @@ body{
   margin-top: auto;
   margin-bottom: 50px;
   z-index: 5
+}
+
+.foregroundContent{
+  width: 100%;
+  margin: 0 auto;
 }
 
 .bureauFront{
@@ -89,11 +92,6 @@ body{
   z-index: 3;
   left: 428px;
   top: 4100px;
-}
-
-.foreground img{
-  width: 100%;
-
 }
 
 .hotelFront{
