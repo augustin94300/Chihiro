@@ -23,7 +23,7 @@ body{
 .foreground {
   margin-top: auto;
   margin-bottom: 50px;
-  z-index: 5;
+
 }
 
 .background_image{
@@ -66,4 +66,10 @@ body{
   z-index: 3;
   transform: translateX(0px);
   transition: all 3s linear;
+}
+.bureau{
+  position: absolute;
+  height:50%;
+  width: 200px;
+  z-index: 5;
 }
