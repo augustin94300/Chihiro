@@ -52,7 +52,7 @@ body{
   width: 70%;
   z-index: 2;
   left: 200px;
-  top: 2170px;
+  top: 2408px;
 }
 
 .chambreFront{
@@ -60,15 +60,15 @@ body{
   width: 75%;
   z-index: 2;
   left: 200px;
-  top: 2770px;
+  top: 3080px;
 }
 
 .chambreBack{
   position: absolute;
   width: 40%;
   z-index: 3;
-  left: 430px;
-  top: 2890px;
+  left: 450px;
+  top: 3300px;
 }
 
 .bainFront{
@@ -108,9 +108,9 @@ body{
   position: absolute;
   margin: 300px 50px;
   z-index:6;
-  width: 35%;
-  top: 2100px;
-  left: 370px;
+  width: 25%;
+  top: 2400px;
+  left: 421px;
 }
 
 .secondPagode{
@@ -118,7 +118,7 @@ body{
   margin: 300px 50px;
   z-index:6;
   width: 35%;
-  top: 2800px;
+  top: 3000px;
   left: 370px;
 }
 
@@ -127,7 +127,7 @@ body{
   margin: 300px 50px;
   z-index:6;
   width: 35%;
-  top: 3500px;
+  top: 3700px;
   left: 370px;
 }
 
