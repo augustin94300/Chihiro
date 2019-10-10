@@ -22,7 +22,7 @@ body{
 .foreground {
   margin-top: auto;
   margin-bottom: 50px;
-  z-index: 5;
+  z-index: 5
 }
 
 .foregroundContent{
