@@ -124,18 +124,18 @@ body{
 
 .chambreFront{
   position: absolute;
-  width: 75%;
+  width: 80%;
   z-index: 3;
   left: 200px;
-  top: 3190px;
+  top: 3110px;
 }
 
 .chambreBack{
   position: absolute;
-  width: 40%;
+  width: 45%;
   z-index: 4;
   left: 430px;
-  top: 3200px;
+  top: 3120px;
 }
 
 .bainFront{
