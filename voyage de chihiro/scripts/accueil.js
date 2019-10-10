@@ -13,3 +13,8 @@ let observer = new IntersectionObserver((entries, observer) => {
 observer.observe(video);
 
 let rellax = new Rellax('.rellax');
+
+
+$(document).ready(function() {
+	$('#fullpage').fullpage();
+});
