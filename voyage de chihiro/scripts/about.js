@@ -2,6 +2,7 @@ const about_text = document.querySelector("#about_text")
 const text_storyLine = document.querySelector("#text_storyLine")
 const aboutTheCast = document.querySelector(".aboutTheCast")
 const movieDirector = document.querySelector(".movieDirector")
+var relax = new Rellax ('.rellax');
 window.addEventListener(
     "scroll",
     function (){
