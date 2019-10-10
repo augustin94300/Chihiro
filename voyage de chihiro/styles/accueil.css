@@ -81,7 +81,7 @@ body{
 .chooseItem{
   position: absolute;
   z-index: 6;
-  top: 850px;
+  top: 1050px;
 }
 
 .bigBox{
@@ -92,7 +92,7 @@ body{
 
 .bigBox img{
   width: 30%;
-  margin: 100px 200px;
+  margin: 70px 200px;
 }
 
 .firstBox{
