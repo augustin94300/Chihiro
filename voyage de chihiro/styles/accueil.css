@@ -50,13 +50,13 @@ body{
 
 .tunnel{
   position: absolute;
-  margin: -1000px 50px;
   z-index:5;
+  margin-top: 300px;
 }
 
 .tunnel img{
-  width: 50%;
-  margin: 0 200px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .monstre{
