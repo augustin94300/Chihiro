@@ -27,31 +27,31 @@ body{
   z-index: 5
 }
 
-.bureauBack{
+.bureauFront{
   position: absolute;
   width: 70%;
   z-index: 2;
-  left: 100px;
+  left: 200px;
   top: 2170px;
 }
 
-.bureauFront{
+.bureauBack{
   position: absolute;
-  width: 65%;
+  width: 40%;
   z-index: 3;
-  left: 239px;
-  top: 2185px;
-}
-
-.chambreBack{
-  position: absolute;
-  width: 75%;
-  z-index: 2;
-  left: 100px;
-  top: 2960px;
+  left: 200px;
+  top: 2165px;
 }
 
 .chambreFront{
+  position: absolute;
+  width: 75%;
+  z-index: 2;
+  left: 200px;
+  top: 2770px;
+}
+
+.chambreBack{
   position: absolute;
   width: 40%;
   z-index: 3;
@@ -59,7 +59,7 @@ body{
   top: 2820px;
 }
 
-.bainBack{
+.bainFront{
   position: absolute;
   width: 75%;
   z-index: 2;
@@ -67,7 +67,7 @@ body{
   top: 3170px;
 }
 
-.bainFront{
+.bainBack{
   position: absolute;
   width: 60%;
   z-index: 3;
@@ -75,7 +75,7 @@ body{
   top: 3400px;
 }
 
-.caveBack{
+.caveFront{
   position: absolute;
   width: 65%;
   z-index: 2;
@@ -83,7 +83,7 @@ body{
   top: 4050px;
 }
 
-.caveFront{
+.caveBack{
   position: absolute;
   width: 45%;
   z-index: 3;
