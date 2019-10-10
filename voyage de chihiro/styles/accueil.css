@@ -64,3 +64,23 @@ body{
   left: 65%;
   z-index: 3;
 }
+
+.loaderPage{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #b33939;
+  z-index: 9999;
+}
+
+.loader{
+  position: fixed;
+  width: 8%;
+  margin: 20% 45%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
