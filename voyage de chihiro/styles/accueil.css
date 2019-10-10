@@ -23,7 +23,7 @@ body{
 .foreground {
   margin-top: auto;
   margin-bottom: 50px;
-  z-index: 5;
+
 }
 
 .background_image{
@@ -67,23 +67,9 @@ body{
   transform: translateX(0px);
   transition: all 3s linear;
 }
-
-.loaderPage{
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: #b33939;
-  z-index: 9999;
-}
-
-.loader{
-  position: fixed;
-  width: 8%;
-  margin: 20% 45%;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.bureau{
+  position: absolute;
+  height:50%;
+  width: 200px;
+  z-index: 5;
 }
