@@ -5,8 +5,6 @@ body{
 
 .parallaxContainer{
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100%;
   width: 100%;
   z-index: 0;
@@ -36,7 +34,7 @@ body{
 .bureauFront{
   position: absolute;
   width: 70%;
-  z-index: 2;
+  z-index: 3;
   left: 200px;
   top: 2170px;
 }
@@ -44,7 +42,7 @@ body{
 .bureauBack{
   position: absolute;
   width: 70%;
-  z-index: 3;
+  z-index: 2;
   left: 200px;
   top: 2170px;
 }
@@ -97,16 +95,32 @@ body{
   top: 4100px;
 }
 
-.hotelFront{
+
+.firstPagode{
   position: absolute;
   margin: 300px 50px;
   z-index:6;
-  width: 75%;
+  width: 35%;
+  top: 2100px;
+  left: 370px;
 }
 
-.hotelFront img{
-  width: 50%;
-  margin: 200px;
+.secondPagode{
+  position: absolute;
+  margin: 300px 50px;
+  z-index:6;
+  width: 35%;
+  top: 2800px;
+  left: 370px;
+}
+
+.thirdPagode{
+  position: absolute;
+  margin: 300px 50px;
+  z-index:6;
+  width: 35%;
+  top: 3500px;
+  left: 370px;
 }
 
 .tunnel{
