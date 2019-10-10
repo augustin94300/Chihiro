@@ -23,8 +23,6 @@ body{
 .foreground {
   margin-top: auto;
   margin-bottom: 50px;
-  z-index:2;
-  z-index: 4;
 }
 
 .background_image{
@@ -51,7 +49,7 @@ body{
 .tunnel{
   position: absolute;
   margin: -1000px 50px;
-  z-index:2;
+  z-index:5;
 }
 
 .tunnel img{
