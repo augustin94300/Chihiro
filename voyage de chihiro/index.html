@@ -14,14 +14,14 @@
       </div>
       <div class="parallaxContainer">
         <div class="background">
-          <img class="bureauBack"src="all_images/images/FrontBureau.png" alt="">
+          <img class="bureauBack rellax" src="all_images/images/FrontBureau.png" data-rellax-speed="1.2" alt="">
           <img class="bureauFront" src="all_images/images/BackBureau.png" alt="">
-          <img class="chambreBack" src="all_images/images/BackChambre.png" alt="">
-          <img class="chambreFront" src="all_images/images/FrontChambre.png" alt="">
-          <img class="bainBack" src="all_images/images/BackBain.png" alt="">
-          <img class="bainFront" src="all_images/images/FrontBain.png" alt="">
-          <img class="caveFront" src="all_images/images/FrontCave.png" alt="">
-          <img class="caveBack" src="all_images/images/BackCave.png" alt="">
+          <img class="chambreBack rellax" src="all_images/images/BackChambre.png"   data-rellax-speed="0.8" alt="">
+          <img class="chambreFront rellax" src="all_images/images/FrontChambre.png"   data-rellax-speed="1.4"  alt="">
+          <img class="bainBack rellax" src="all_images/images/BackBain.png" data-rellax-speed="1.4" alt="">
+          <img class="bainFront rellax" src="all_images/images/FrontBain.png" data-rellax-speed="1.2" alt="">
+          <img class="caveFront rellax" src="all_images/images/FrontCave.png" data-rellax-speed="1.6"  alt="">
+          <img class="caveBack rellax" src="all_images/images/BackCave.png" data-rellax-speed="1.6" alt="">
         </div>
         <div class="foreground">
           <div class="title">
@@ -64,9 +64,9 @@
           </div>
         </div>
         <div class="hotelFront">
-          <img class="firstPagode" src="all_images/images/Pagode1.png" alt"">
-          <img class="secondPagode" src="all_images/images/Pagode2.png" alt"">
-          <img class="thirdPagode" src="all_images/images/Pagode3.png" alt"">
+          <img class="firstPagode rellax" src="all_images/images/Pagode1.png"  data-rellax-speed="0.85"  alt"">
+          <img class="secondPagode rellax" src="all_images/images/Pagode2.png"  data-rellax-speed="0.85"   alt"">
+          <img class="thirdPagode rellax" src="all_images/images/Pagode3.png" data-rellax-speed="0.85"  alt"">
         </div>
       </div>
       <div class="sections">
@@ -86,5 +86,9 @@
   </footer>
     <script src="scripts/accueil.js"></script>
     <script src="scripts/loader.js"></script>
+    <script src="scripts/rellax.min.js"></script>
+    <script>
+      var relax = new Rellax ('.rellax');
+    </script>
   </body>
 </html>
