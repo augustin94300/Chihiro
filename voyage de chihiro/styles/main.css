@@ -48,6 +48,8 @@ header .btnfilled {
     line-height: 53px;
     text-align: center;
     margin-top: 25px;
+    animation-name: btnfilled;
+    animation-duration: 2.4s;
 }
 /*----------nav---------*/
 nav {
@@ -62,6 +64,8 @@ nav a {
 nav a img {
     width: 15%;
     padding-top: 5%;
+    animation-name: logo;
+    animation-duration: 2s;
 }
 
 /*----------header---------*/
@@ -98,13 +102,14 @@ header h1 {
     height: 950px;
     min-height: 950px;
 }
-.about h1 {
+#about_text {
     padding: 15% 2%;
     text-align: center;
     margin-left: 56%;
     font-size: 16px;
     font-weight: 100;
     line-height: 2.3;
+    display: hidden;
 }
 
 .pinkFlower {
@@ -156,7 +161,7 @@ header h1 {
     color: #222222;
 }
 
-.storyLine p {
+#text_storyLine {
     width: 70%;
     margin: 0 auto 18px auto;
     font-size: 17px;
@@ -260,6 +265,56 @@ footer p, .footerPages {
 }
 
  
+/*----------Animations---------*/
+
+
+.animateMe{
+    animation-name: animateMe;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+}
+.sous_titre{
+    animation-name: sous_titre;
+    animation-duration: 1.5s;  
+}
+@keyframes animateMe{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes btnfilled{
+    0%{
+        opacity:0;
+        
+    }
+    50%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes sous_titre{
+    from{
+        margin-top: 20px;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+@keyframes logo{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 
  
 
