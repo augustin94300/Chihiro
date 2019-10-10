@@ -1,52 +1,101 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>rpg</title>
-    <link rel="stylesheet" href="styles/accueil.css">
-  </head>
-  <body>
-    <main>
-      <div class="loaderPage">
-        <img class="loader" src="images/charbon.png" alt="">
-      </div>
-      <div class="parallax-container">
-        <div class="background">
-          <img class="bureauBack"src="images/Frontbureau.png" alt="">
-          <img class="bureauFront" src="images/BackBureau.png" alt="">
-          <img class="chambreFront" src="images/BackChambre.png" alt="">
-          <img class="chambreBack" src="images/FrontChambre.png" alt="">
-          <img class="bainFront" src="images/BackBain.png" alt="">
-          <img class="bainBack" src="images/FrontBain.png" alt="">
-          <img class="caveFront" src="images/FrontCave.png" alt="">
-          <img class="caveBack" src="images/BackCave.png" alt="">
+<html>
+    <head>
+        <title>Movie project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#"><img src="all_images/img_about/Spirited_Away_Logo_fr.svg.png" alt="nav icon"></a>
+            </nav>
+            <h1>
+                Capturing the fear and excitement of being young and lost
+            </h1>
+                <a href="#trailer" class="btnfilled"> Watch the trailer</a>
+        </header>
+        <div class="about">
+            <h1>
+                Le film raconte l’histoire de Chihiro, une fille de 10 ans, qui entre dans le monde des Kamis (des esprits) par
+                inadvertance alors qu’elle se rendait à sa nouvelle maison avec sa famille. Elle y rencontre un garçon nommé Haku,
+                qui presse Chihiro de vite rentrer avec sa famille avant que la nuit ne tombe. Quand elle retrouva ses parents il
+                était déjà trop tard : la sorcière Yubaba avait déjà transformé ses parents en cochon. L’histoire prend alors une
+                réelle tournure ; suivez la quête acharnée de Chihiro pour retrouver ses parents dans le monde fantastique des
+                Esprits.
+            </h1>
+            <img src="all_images/img_about/pink_flower.png" class="pinkFlower rellax"  data-rellax-speed="3">
         </div>
-        <div class="foreground">
-          <div class="map">
-            <img src="images/map.png" alt="">
-          </div>
-          <div class="tunnel">
-            <img src="images/tunnel.png" alt="">
-          </div>
-          <div>
-            <img class="foreground_content" src="images/TestHotel.png" alt="">
-          </div>
+        <div class="aboutTheCast">
+        <div class="castSection">
+            <h1>
+                An amazing voyage awaits...
+            </h1>
+            <div class="characters">
+                <div class="mainCharacters">
+                    <img src="all_images/img_about/Chihiro_personnage.png" alt="character profile">
+                    <h3>Chihiro Ogino</h3>
+                </div>
+                <div class="mainCharacters">
+                    <img src="all_images/img_about/Haku_personnage.png" alt="character profile">
+                    <h3>Haku</h3>
+                </div>
+                <div class="mainCharacters">
+                    <img src="all_images/img_about/Yubaba_personnage.png" alt="character profile">
+                    <h3>Yubaba</h3>
+                </div>
+            </div>
         </div>
-        <div class="hotelFront">
-          <img src="images/Pagode1.png" alt"">
-          <img src="images/Pagode2.png" alt"">
-          <img src="images/Pagode3.png" alt"">
+        <div class="storyLine">
+            <p>
+                Chihiro Ogino / Sen : Rumi Hiiragi. Rumi Hiiragi a joué dans de nombreuses séries télévisées. Elle est connue pour
+                son rôle dans Suzuran et pour le doublage du personnage principal du Voyage de Chihiro.
+                Haku : Miyu Irino. Miyu Irino
+                (入野 自由, Irino Miyu) (19 février 1988) est un seiyū japonais né à Tokyo. C'est un bon
+                ami de Mamoru Miyano. Il est surnommé "Miyu-Miyu" par les CLAMP. Yubaba / Zeniba : Mari Natsuki. Mari Natsuki (夏木マリ,
+                Natsuki Mari?), nom de scène de Junko Nakajima (中島淳子, Nakajima
+                Junko?), est une chanteuse, actrice et danseuse japonaise née le 2 mai 1952 à Tokyo dans l’arrondissement de
+                Toshima.
+            </p>
         </div>
-      </div>
-      <div class="sections">
-        <video  class="video"src= "images/video.mp4" controls='controls'</video>
-      </div>
-      <img class="monstre" src="images/monstre.png" alt="">
-    </main>
-    <footer>
-    </footer>
-    <script src="scriptes\accueil.js"></script>
-    <script src="scripts\loader.js"></script>
+        </div>
+        <div class="movieDirector">
+            <img src="all_images/img_about/flower_2.png" class="flower rellax"  data-rellax-speed="3">
+            <div class="directorsName">
+                <h1>Hayao Miyazaki</h1>
+            </div>
+            <div class="directorComment">
+                <p>
+                    « Je voulais faire un film que les filles de 10 ans pouvaient aimer ; tel était mon vrai but avec ce film. Je
+                    voulais offrir quelque chose d’autre que des histoires d’amour, et j’ai l’impression que ce pays (le Japon) n’offre
+                    que cela à ce genre d’audience »
+                </p>
+            </div>
+        </div>
+        <div class="trailer-frame">
+            <div class="trailer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ByXuk9QqQkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="callToAction">
+            <h1>Continue to Discover our universe</h1>
+            <a href="#" class="btnfilled">Discover</a>
+        </div>
+        <footer>
+            <p>CopyRight Clean HETIC</p>
+            <div class="footerPages">
+                <a href="#">Home</a>
+                <a href="#">About the Movie</a>
+                <a href="#">Merch</a>
+                <a href="#">Tickets</a>
+            </div>
+        </footer>
 
-  </body>
+        <script src="scriptes/rellax.min.js"></script>
+
+        <script>
+            var relax = new Rellax ('.rellax');
+        </script>
+    </body>
 </html>
