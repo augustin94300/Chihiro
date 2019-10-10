@@ -20,42 +20,75 @@ body{
   height: 100%;
 }
 
+
 .foreground {
   margin-top: auto;
   margin-bottom: 50px;
   z-index: 5
 }
 
-.front{
+.bureauFront{
   position: absolute;
+  width: 75%;
   z-index: 2;
-  margin-left: 100px;
-}
-
-.back{
-  position: absolute;
-  z-index: 3;
-  margin-left: 100px;
-}
-
-.bureau{
+  left: 100px;
   top: 1150px;
 }
 
-.chambre{
-  top: 1450px;
+.bureauBack{
+  position: absolute;
+  width: 60%;
+  z-index: 3;
+  left: 140px;
+  top: 1150px;
 }
 
 .chambreFront{
-  
+  position: absolute;
+  width: 75%;
+  z-index: 2;
+  left: 100px;
+  top: 1450px;
 }
 
-.bain{
-  top: 1700px;
+.chambreBack{
+  position: absolute;
+  width: 60%;
+  z-index: 3;
+  left: 180px;
+  top: 2650px;
 }
 
-.cave{
+.bainFront{
+  position: absolute;
+  width: 75%;
+  z-index: 2;
+  left: 240px;
+  top: 3170px;
+}
 
+.bainBack{
+  position: absolute;
+  width: 60%;
+  z-index: 3;
+  left: 240px;
+  top: 3400px;
+}
+
+.caveFront{
+  position: absolute;
+  width: 65%;
+  z-index: 2;
+  left: 200px;
+  top: 4050px;
+}
+
+.caveBack{
+  position: absolute;
+  width: 45%;
+  z-index: 3;
+  left: 428px;
+  top: 4100px;
 }
 
 .foreground img{
@@ -66,7 +99,7 @@ body{
 .hotelFront{
   position: absolute;
   margin: 300px 50px;
-  z-index:2;
+  z-index:6;
   width: 75%;
 }
 
