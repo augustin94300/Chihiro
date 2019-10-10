@@ -37,10 +37,10 @@ body{
 
 .bureauBack{
   position: absolute;
-  width: 40%;
+  width: 70%;
   z-index: 3;
-  left: 430px;
-  top: 2890px;
+  left: 200px;
+  top: 2170px;
 }
 
 .chambreFront{
@@ -55,8 +55,8 @@ body{
   position: absolute;
   width: 40%;
   z-index: 3;
-  left: 320px;
-  top: 2820px;
+  left: 430px;
+  top: 2890px;
 }
 
 .bainFront{
