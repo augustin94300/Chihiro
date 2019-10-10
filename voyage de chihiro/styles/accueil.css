@@ -56,3 +56,9 @@ body{
   width: 50%;
   margin: 0 200px;
 }
+.monstre{
+  height: 10%;
+  width: 10%;
+  position: absolute;
+  bottom: 200%;
+}
