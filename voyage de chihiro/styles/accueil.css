@@ -23,6 +23,7 @@ body{
 .foreground {
   margin-top: auto;
   margin-bottom: 50px;
+  z-index: 5;
 }
 
 .background_image{
@@ -32,6 +33,7 @@ body{
 
 .foreground img{
   width: 100%;
+
 }
 
 .hotelFront{
@@ -59,10 +61,11 @@ body{
 
 .monstre{
   width: 15%;
-  position: absolute;
-  top: 504%;
+  top: 554%;
   left: 65%;
   z-index: 3;
+  transform: translateX(0px);
+  transition: all 3s linear;
 }
 
 .loaderPage{
