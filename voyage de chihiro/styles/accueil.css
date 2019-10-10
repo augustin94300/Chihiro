@@ -39,6 +39,73 @@ body{
   margin: 0 auto;
 }
 
+.title{
+  position: absolute;
+  z-index: 10;
+  top: 230px;
+  left: 220px;
+}
+
+.title img{
+  width: 80%;
+}
+
+.imgNoFace{
+  position: absolute;
+  z-index: 6;
+  top: 70px;
+  left: 475px;
+}
+
+.imgNoFace img{
+  width: 40%;
+}
+
+.buttons{
+  position: absolute;
+  z-index: 6;
+  top: 500px;
+  width: 100%;
+}
+
+.littleBigBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: row;
+}
+
+.littleBigBox a{
+  margin: 50px 230px;
+}
+
+.chooseItem{
+  position: absolute;
+  z-index: 6;
+  top: 850px;
+}
+
+.bigBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: row;
+}
+
+.bigBox img{
+  width: 30%;
+  margin: 100px 200px;
+}
+
+.firstBox{
+  display:flex;
+  justify-content: row;
+}
+
+.secondBox{
+  display:flex;
+  justify-content: row;
+}
+
+
 .bureauFront{
   position: absolute;
   width: 70%;
