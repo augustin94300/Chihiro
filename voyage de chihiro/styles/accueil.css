@@ -137,11 +137,6 @@ body{
   margin: 70px 200px;
 }
 
-.bigBox img:hover{
-  width: 35%;
-  margin:65px 190px;
-}
-
 .firstBox{
   display:flex;
   justify-content: row;
