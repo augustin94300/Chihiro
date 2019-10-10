@@ -1,6 +1,4 @@
-
-
-    let monstre = document.querySelector('.monstre')
+let monstre = document.querySelector('.monstre')
   let bebe = document.querySelector('.bebe')
   let y = 0
   let z =1
@@ -29,12 +27,12 @@
 
       if(y=3){
       let x = setTimeout( function() {
-      monstre.style.marginLeft = '400px'
+      monstre.style.marginLeft = '200px'
       console.log('ok')
       y=3;}, 4000)}
 
       if (y = 4) {
       y=0}
-    }, 5000);
+    }, 12000);
 
     })
