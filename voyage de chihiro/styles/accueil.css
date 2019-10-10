@@ -23,11 +23,7 @@ body{
 .foreground {
   margin-top: auto;
   margin-bottom: 50px;
-  z-index: 5;
-}
-
-.background img{
-  width: 75%;
+  z-index: 5
 }
 
 .front{
@@ -91,12 +87,13 @@ body{
 }
 
 .monstre{
+  position: absolute;
+  top: 1335%;
+  left: 5%;
   width: 15%;
-  top: 554%;
-  left: 65%;
-  z-index: 3;
   transform: translateX(0px);
-  transition: all 3s linear;
+  transition: all 30s linear;
+  z-index: 2;
 }
 
 .loaderPage{
