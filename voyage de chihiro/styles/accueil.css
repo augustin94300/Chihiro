@@ -89,18 +89,18 @@ body{
 
 .caveFront{
   position: absolute;
-  width: 65%;
+  width: 72%;
   z-index: 2;
   left: 200px;
-  top: 4050px;
+  top: 4600px;
 }
 
 .caveBack{
   position: absolute;
-  width: 45%;
+  width: 35%;
   z-index: 3;
-  left: 428px;
-  top: 4100px;
+  left: 600px;
+  top: 4860px;
 }
 
 
