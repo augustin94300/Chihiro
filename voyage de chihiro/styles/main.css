@@ -1,0 +1,273 @@
+/*----------global---------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    overflow-x: hidden;
+}
+html {
+    font-family: Circular Std, sans-serif;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 100;
+    color: rgb(41, 40, 40);
+}
+h3 {
+    font-size: 24px;
+}
+p {
+    font-size: 16px;
+}
+.btnfilled {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(187, 65, 43);
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+header .btnfilled {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(187, 65, 43);
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 25px;
+}
+/*----------nav---------*/
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav a {
+    line-height: 100px;
+}
+
+nav a img {
+    width: 15%;
+    padding-top: 5%;
+}
+
+/*----------header---------*/
+header {
+    height: 700px;
+    min-height: 700px;
+    padding: 0 5%;
+    padding-bottom: 5%;
+    background-image: url(../all_images/img_about/background1.png);
+    background-repeat: no-repeat;
+    background-size: 106%;
+    background-position: top right;
+}
+header h1 {
+    width: 35%;
+    margin: 0 auto;
+    padding: 8%;
+    font-size: 33px;
+    font-family: herculanum;
+    line-height: 1.2;
+    padding-right: 32%;
+    padding-top: 18%;
+}
+
+/*----------about---------*/
+
+.about {
+    position: relative;
+    padding: 0 2%;
+    background-image: url(../all_images/img_about/soap_house.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    height: 950px;
+    min-height: 950px;
+}
+.about h1 {
+    padding: 15% 2%;
+    text-align: center;
+    margin-left: 56%;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 2.3;
+}
+
+.pinkFlower {
+    position: absolute;
+    width: 400px;
+    right: -140px;
+    top: 750px;
+}
+
+/*----------Character section---------*/
+
+.aboutTheCast {
+    height: 825px;
+    min-height: 825px;
+    padding: 0 5%;
+    padding-bottom: 2%;
+    background-image: url(../all_images/img_about/colored_background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.castSection {
+    text-align: center;
+    margin: -8em 0 6em 0;
+    padding: 0 5%; 
+}
+
+.castSection h1 {
+    width: 70%;
+    margin-bottom: 30px;
+    margin: 0 auto 3% auto;
+    font-family: herculanum;
+}
+
+.castSection h3 {
+    margin: 15% auto 0 auto;
+    font-family: herculanum;
+    color: bisque;
+}
+.characters img {
+ width: 55%;
+}
+.characters {
+    display: flex;
+    justify-content: center;
+}
+.mainCharacters {
+    margin: 0 5px;
+    color: #222222;
+}
+
+.storyLine p {
+    width: 70%;
+    margin: 0 auto 18px auto;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 2.3;
+    color: rgb(255, 255, 255);
+}
+
+
+/*----------Directors comment---------*/
+
+.movieDirector {
+    position: relative;
+    padding: 5% 5%;
+    background-image: url(../all_images/img_about/hayao.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 100%;
+    height: 500px;
+    min-height: 500px;
+}
+
+.directorsName h1 {
+    margin-bottom: 5%;
+    padding-top: 1%;
+    font-family:  herculanum;
+    text-align: center;
+    margin-right: 56%;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 2.4;
+}
+
+.directorComment p {
+    margin-bottom: 30px;
+    padding: 30px;
+    margin-right: 57%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 2.4;
+}
+
+.flower{
+    position: absolute;
+    width: 450px;
+    left: -140px;
+    top: 1400px;
+}
+
+/*----------Video frame---------*/
+
+.trailer-frame {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 1200px;
+    min-height: 1200px;
+    padding: 0 5%;
+    background-image: url(../all_images/img_about/trailer_background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin: -8em 0 0em 0;
+}
+.trailer-frame iframe {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/*----------call to action---------*/
+
+.callToAction {
+    text-align: center;
+    padding: 10em 5% 10em 5%;
+}
+.callToAction h1, .callToAction a {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/*----------footer---------*/
+footer {
+    padding: 0 5%;
+    margin-bottom: 10px;
+    color: black;
+}
+footer p, .footerPages {
+    display: inline-block;
+}
+.footerPages {
+    float: right;
+}
+.footerPages a {
+    text-decoration: none;
+    font-weight: 100;
+    color: black;
+    margin-left: 30px;
+}
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
