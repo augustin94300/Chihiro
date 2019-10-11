@@ -5,6 +5,7 @@ html {
 body{
   margin: 0 auto;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .parallaxContainer{
@@ -73,6 +74,20 @@ body{
   margin: 50px 230px;
 }
 
+/*----------call to action---------*/
+
+.callToAction {
+  text-align: center;
+  padding: 10em 5% 10em 5%;
+}
+.callToAction h1, .callToAction a {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+/*------------- chose items ---------*/
+
 .chooseItem{
   position: absolute;
   z-index: 6;
@@ -86,34 +101,38 @@ body{
 
 .choixBureau h3{
   margin: 105px 0px 0px 235px;
-  font-size: 18px;
+  font-size: 22px;
   display: flex;
   flex-wrap: wrap;
   font-weight: 100;
+  font-family: herculanum;
 }
 
 .choixChambre h3{
   margin: 105px 0px 0px 540px;
-  font-size: 18px;
+  font-size: 22px;
   display: flex;
   flex-wrap: wrap;
   font-weight: 100;
+  font-family: herculanum;
 }
 
 .choixBain h3{
   margin: 220px 0px 0px 235px;
-  font-size: 18px;
+  font-size: 22px;
   display: flex;
   flex-wrap: wrap;
   font-weight: 100;
+  font-family: herculanum;
 }
 
 .choixCave h3{
   margin: 220px 0px 0px 540px;
-  font-size: 18px;
+  font-size: 22px;
   display: flex;
   flex-wrap: wrap;
   font-weight: 100;
+  font-family: herculanum;
 }
 
 .txtFirstBox{
@@ -200,8 +219,8 @@ body{
   position: absolute;
   width: 72%;
   z-index: 2;
-  left: 200px;
-  top: 4650px;
+  left: 220px;
+  top: 4610px;
 }
 
 .caveBack{
@@ -209,7 +228,7 @@ body{
   width: 35%;
   z-index: 3;
   left: 600px;
-  top: 4860px;
+  top: 4780px;
 }
 
 
