@@ -81,6 +81,7 @@ header {
 }
 header h1 {
     width: 35%;
+    text-align: center;
     margin: 0 auto;
     padding: 8%;
     font-size: 33px;
@@ -142,6 +143,8 @@ header h1 {
     margin-bottom: 30px;
     margin: 0 auto 3% auto;
     font-family: herculanum;
+    font-size: 40px;
+    line-height: 1.2;
 }
 
 .castSection h3 {
@@ -167,7 +170,7 @@ header h1 {
     font-size: 17px;
     font-weight: 100;
     text-align: center;
-    line-height: 2.3;
+    line-height: 2;
     color: rgb(255, 255, 255);
 }
 

@@ -262,16 +262,6 @@ body{
   margin: 0 auto;
 }
 
-.monstre{
-  position: absolute;
-  top: 1335%;
-  left: 5%;
-  width: 15%;
-  transform: translateX(0px);
-  transition: all 30s linear;
-  z-index: 2;
-}
-
 .loaderPage{
   position: fixed;
   width: 100%;
